@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "babel sirc --presets react, es2015 --out-dir static",
-    "watch": "babel sirc --presets react, es2015 --out-dir static --watch",
+    "compile": "babel src --presets react,es2015 --out-dir static",
+    "watch": "babel src --presets react,es2015 --out-dir static --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
